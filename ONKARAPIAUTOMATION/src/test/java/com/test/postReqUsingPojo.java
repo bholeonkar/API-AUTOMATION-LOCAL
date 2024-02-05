@@ -19,8 +19,8 @@ public class postReqUsingPojo {
     @Test
     public void pojoReq() {
 
-        Marks marks = new Marks(80, 90);
-        Marks marks1 = new Marks(90, 100);
+        MarksInfo marks = new MarksInfo(80, 90);
+        MarksInfo marks1 = new MarksInfo(90, 100);
         List<Marks> allMarks = new ArrayList<>();
         allMarks.add(marks);
         allMarks.add(marks1);
