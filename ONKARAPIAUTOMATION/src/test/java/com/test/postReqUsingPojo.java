@@ -35,7 +35,7 @@ public class postReqUsingPojo {
 
         FavFoodInfo favFood = new FavFoodInfo("Poori", "FriedRice", dinner);
 
-        EmployeeInfo employee = new EmployeeInfo(40, "Praveen", "Xavier", "12345@gmail.com", favFood, jobs, allMarks);
+        EmployeeInfo employee = new EmployeeInfo(40, "Onkar", "Bhole", "Om@gmail.com", favFood, jobs, allMarks);
 
         Response response = given().header("Content-Type", ContentType.JSON)
                 .body(employee).post("http://localhost:3000/employees");
