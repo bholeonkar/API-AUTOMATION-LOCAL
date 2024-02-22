@@ -8,9 +8,9 @@ public class postRequest {
     public void postReq() {
        /* String Jsonbody="{\n" +
                 "  \"id\": 18,\n" +
-                "  \"first_name\": \"Tilak\",\n" +
-                "  \"last_name\": \"Varma\",\n" +
-                "  \"email\": \"tk@gmail.com\"\n" +
+                "  \"first_name\": \"Onkar\",\n" +
+                "  \"last_name\": \"Bhole\",\n" +
+                "  \"email\": \"Om@gmail.com\"\n" +
                 "}";
         Response response=given()
                 .header("Content-Type","application/json")
